@@ -92,7 +92,7 @@ function generate (config) {
       { key: TAX_ID, value: config.taxID },
       { key: E_WALLET_ID, value: config.eWalletID },
       { key: BANK_ACCOUNT, value: config.bankAccount }
-    ].filter((val) => !isNaN(val.value))
+    ].filter((val) => val.value)
 
     if (identification.length === 0) throw new Error(`${config.application} missing required config`)
     if (config.application === PROMPTPAY_CREDIT_TRANSFER_WITH_OTA && !config.ota) throw new Error(`${config.application} missing required config: ota`)
