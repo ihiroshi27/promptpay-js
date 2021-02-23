@@ -1,6 +1,6 @@
 {
-  "name": "promptpay",
-  "version": "1.0.0",
+  "name": "promptpay-js",
+  "version": "1.0.1",
   "description": "PromptPay Generator and Parser for Node.js",
   "main": "index.js",
   "repository": {
