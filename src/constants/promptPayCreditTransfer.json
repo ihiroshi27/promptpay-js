@@ -1,0 +1,9 @@
+{
+  "AID": "00",
+  "MOBILE_NUMBER": "01",
+  "NATIONAL_ID": "02",
+  "TAX_ID": "02",
+  "E_WALLET_ID": "03",
+  "BANK_ACCOUNT": "04",
+  "OTA": "05"
+}

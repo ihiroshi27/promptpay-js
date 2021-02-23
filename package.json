@@ -1,0 +1,25 @@
+{
+  "name": "promptpay",
+  "version": "1.0.0",
+  "description": "PromptPay Generator and Parser for Node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihiroshi27/promptpay-js.git"
+  },
+  "keywords": [
+    "thai",
+    "promptpay",
+    "payment",
+    "banking"
+  ],
+  "author": "Perayuth Thanyanon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihiroshi27/promptpay-js/issues"
+  },
+  "homepage": "https://github.com/ihiroshi27/promptpay-js#readme",
+  "dependencies": {
+    "crc": "^3.8.0"
+  }
+}

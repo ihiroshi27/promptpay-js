@@ -1,0 +1,7 @@
+{
+  "QR_STATIC": "11",
+  "QR_DYNAMIC": "12",
+  "BLE_STATIC": "21",
+  "BLE_DYNAMIC": "22",
+  "NFC_STATIC": "31"
+}
