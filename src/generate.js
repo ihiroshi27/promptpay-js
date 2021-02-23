@@ -61,7 +61,7 @@ const CRC_LENGTH = '04'
  * @param {string} config.additional.referenceID
  * @param {string} config.additional.customerID
  * @param {stirng} config.additional.terminalID
- * @param {string} config.additional.perposeOfTransaction
+ * @param {string} config.additional.purposeOfTransaction
  * @param {string} config.additional.additionalCustomerData
  * @param {string} config.merchantInformation
  * @param {string} config.sellerTaxBranchID
@@ -136,7 +136,7 @@ function generate (config) {
       referenceID,
       customerID,
       terminalID,
-      perposeOfTransaction,
+      purposeOfTransaction,
       additionalCustomerData
     } = config.additional
     payload += encode(
@@ -148,7 +148,7 @@ function generate (config) {
       (referenceID ? encode(additionalDataField.REFERENCE_ID, referenceID) : '') +
       (customerID ? encode(additionalDataField.CUSTOMER_ID, customerID) : '') +
       (terminalID ? encode(additionalDataField.TERMINAL_ID, terminalID) : '') +
-      (perposeOfTransaction ? encode(additionalDataField.PERPOSE_OF_TRANSACTION, perposeOfTransaction) : '') +
+      (purposeOfTransaction ? encode(additionalDataField.PERPOSE_OF_TRANSACTION, purposeOfTransaction) : '') +
       (additionalCustomerData ? encode(additionalDataField.ADDITIONAL_CUSTOMER_DATA, additionalCustomerData) : '')
     )
   }
