@@ -125,7 +125,7 @@ function generate (config) {
       tag.PROMPTPAY_CREDIT_TRANSFER,
       encode(promptPayCreditTransfer.AID, application[config.application]) +
       encode(promptPayCreditTransfer[identification[0].key], identification[0].value) +
-      (config.application === PROMPTPAY_CREDIT_TRANSFER_WITH_OTA ? encode(promptPayCreditTransfer.OTA, config.ota) : '')
+      (config.ota ? encode(promptPayCreditTransfer.OTA, config.ota) : '')
     )
   } else if (
     config.application === PROMPTPAY_BILL_PAYMENT ||
