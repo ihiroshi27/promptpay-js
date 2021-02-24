@@ -38,12 +38,12 @@ const UNKNOWN = 'UNKNOWN'
 
  /**
  * 
- * @param {TagType} tagType
- * @param {string} tagID
+ * @param {TagType} type
+ * @param {string} id
  * 
  */
-function findTagKey (tagType, id) {
-  switch (tagType) {
+function findTagKey (type, id) {
+  switch (type) {
     case PROMPTPAY_CREDIT_TRANSFER:
       return Object.keys(promptPayCreditTransfer).find((key) => promptPayCreditTransfer[key] === id) || UNKNOWN
     case PROMPTPAY_BILL_PAYMENT:
