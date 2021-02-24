@@ -60,37 +60,37 @@ function findTagKey (type, id) {
  * @param {object} config 
  * @param {Method} config.method
  * @param {Application} config.application
- * @param {string} config.mobileNumber
- * @param {string} config.nationalID
- * @param {string} config.taxID
- * @param {string} config.eWalletID
- * @param {string} config.bankAccount
- * @param {string} config.ota
- * @param {string} config.billerID
- * @param {string} config.reference1
- * @param {string} config.reference2
- * @param {string} config.mcc
- * @param {string} config.currencyCode
- * @param {string} config.amount
- * @param {string} config.tip
+ * @param {string} [config.mobileNumber]
+ * @param {string} [config.nationalID]
+ * @param {string} [config.taxID]
+ * @param {string} [config.eWalletID]
+ * @param {string} [config.bankAccount]
+ * @param {string} [config.ota]
+ * @param {string} [config.billerID]
+ * @param {string} [config.reference1]
+ * @param {string} [config.reference2]
+ * @param {string} [config.mcc]
+ * @param {string} [config.currencyCode]
+ * @param {string} [config.amount]
+ * @param {string} [config.tip]
  * @param {string} config.countryCode
- * @param {string} config.merchantName
- * @param {string} config.merchantCity
- * @param {string} config.postalCode
- * @param {object} config.additional
- * @param {string} config.additional.billNumber
- * @param {string} config.additional.mobileNumber
- * @param {string} config.additional.storeID
- * @param {string} config.additional.loyaltyNumber
- * @param {string} config.additional.referenceID
- * @param {string} config.additional.customerID
- * @param {stirng} config.additional.terminalID
- * @param {string} config.additional.purposeOfTransaction
- * @param {string} config.additional.additionalCustomerData
- * @param {string} config.merchantInformation
- * @param {string} config.sellerTaxBranchID
- * @param {string} config.vatRate
- * @param {string} config.vatAmount
+ * @param {string} [config.merchantName]
+ * @param {string} [config.merchantCity]
+ * @param {string} [config.postalCode]
+ * @param {object} [config.additional]
+ * @param {string} [config.additional.billNumber]
+ * @param {string} [config.additional.mobileNumber]
+ * @param {string} [config.additional.storeID]
+ * @param {string} [config.additional.loyaltyNumber]
+ * @param {string} [config.additional.referenceID]
+ * @param {string} [config.additional.customerID]
+ * @param {stirng} [config.additional.terminalID]
+ * @param {string} [config.additional.purposeOfTransaction]
+ * @param {string} [config.additional.additionalCustomerData]
+ * @param {string} [config.merchantInformation]
+ * @param {string} [config.sellerTaxBranchID]
+ * @param {string} [config.vatRate]
+ * @param {string} [config.vatAmount]
  * 
  */
 function generate (config) {
