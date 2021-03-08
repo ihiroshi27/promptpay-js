@@ -70,7 +70,7 @@ function findTagKey (type, id) {
  * @param {string} [config.reference1]
  * @param {string} [config.reference2]
  * @param {string} [config.mcc]
- * @param {string} [config.currencyCode]
+ * @param {string} config.currencyCode
  * @param {string} [config.amount]
  * @param {string} [config.tip]
  * @param {string} config.countryCode
