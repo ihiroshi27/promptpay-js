@@ -1,8 +1,9 @@
 {
   "name": "promptpay-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "PromptPay Generator and Parser for Node.js",
   "main": "index.js",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ihiroshi27/promptpay-js.git"
