@@ -193,6 +193,7 @@ function generate (config) {
     tag.CRC,
     crc16xmodem(payload + tag.CRC + CRC_LENGTH, CRC_INITIAL)
       .toString(16)
+      .padStart(4, '0')
       .toUpperCase()
   )
 
