@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/ihiroshi27/promptpay-js#readme",
   "dependencies": {
-    "crc": "^3.8.0"
+    "crc": "^4.3.2"
   }
 }
